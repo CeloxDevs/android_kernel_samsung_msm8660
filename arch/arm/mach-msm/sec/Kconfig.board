@@ -1,0 +1,6 @@
+#
+# Include the specific Kconfig file for Samsung boards
+#
+
+config MACH_SEC_DUMMY
+	bool "NONE (No device)"
