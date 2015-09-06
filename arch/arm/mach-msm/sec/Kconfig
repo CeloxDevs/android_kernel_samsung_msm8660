@@ -1,0 +1,11 @@
+config MACH_SEC
+        bool
+
+menu "Samsung Board Selection"
+source "arch/arm/mach-msm/sec/Kconfig.board"
+endmenu
+
+
+menu "Samsung Specific Patches"
+
+endmenu
